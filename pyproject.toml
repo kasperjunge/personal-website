@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "personal-website"
+version = "0.1.0"
+description = "Kasper Junges personal website."
+authors = ["Kasper Junge"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-fasthtml = "^0.6.9"
+
+
+[tool.poetry.group.dev.dependencies]
+copcon = "^0.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
